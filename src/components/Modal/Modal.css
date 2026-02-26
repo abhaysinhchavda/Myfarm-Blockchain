@@ -1,0 +1,77 @@
+.ConnectDilog .MuiDialog-paperWidthSm {
+  width: 429px !important;
+  height: 240px !important;
+  border-radius: 20px;
+}
+.ConnectDilog2 .MuiDialog-paperWidthSm {
+  width: 710px !important;
+
+  border-radius: 20px;
+}
+.Switch-wallete .MuiDialog-paperWidthSm {
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+.Token-header {
+  border-bottom: 0px !important;
+}
+.Switch-modal {
+  border-bottom: 0px !important;
+}
+.SettingModal .MuiDialog-paperWidthSm {
+  width: 500px !important;
+  border-radius: 21px !important;
+}
+.Token-Dilog .MuiDialog-paperWidthSm {
+  width: 425px !important;
+  padding-top: 1rem !important;
+  border-radius: 20px;
+  height: 565px !important;
+}
+.myHeaderClass12 {
+  border-bottom: unset !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  padding-left: 1.2rem !important;
+}
+.ConnectDilog1 .MuiDialog-paperWidthSm {
+  width: 429px !important;
+  /* height: 240px !important; */
+  border-radius: 20px;
+}
+.AccountDilog .MuiDialog-paperWidthSm {
+  width: 429px !important;
+
+  border-radius: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .AccountDilog .MuiDialog-paperWidthSm {
+    min-width: 356px !important;
+  }
+}
+.PoolModal .MuiDialog-paperWidthSm {
+  width: 395px !important;
+  border-radius: 20px;
+}
+.loder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.StakeModal .MuiDialog-paperWidthSm {
+  width: 438px !important;
+  /* height: 223px !important; */
+  border-radius: 20px;
+}
+.SwitchNetworkDilog .MuiDialog-paperWidthSm {
+  width: 431px;
+  height: 182px;
+  border-radius: 20px;
+}
+.myHeaderClass {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+  color: black;
+  padding: 0.2rem 1rem !important;
+  /* background: linear-gradient(91.69deg, #ecfdff -5.48%, #f2f0ff 111.08%); */
+}

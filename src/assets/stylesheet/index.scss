@@ -1,0 +1,109 @@
+@import "/src/Assets/StyleSheet/base";
+
+body {
+  margin: 0;
+  font-family: "Kanit", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: $ThemeBackground;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  .MuiTableCell-root {
+    font-family: "Kanit";
+    font-weight: 500;
+  }
+}
+.MuiSnackbar-root{
+  width:93% !important;
+  left:53% !important;
+  top:71px !important;
+}
+.MuiDialog-paperWidthSm {
+  background-color: white !important;
+}
+.SwapBg {
+  background: linear-gradient(91.69deg, #ecfdff -5.48%, #f2f0ff 111.08%);
+}
+.MuiDialogContent-root .List-item {
+  padding-bottom: 5px !important;
+  padding-top: 5px !important;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.MuiTab-root {
+  font-family: "Kanit", sans-serif !important;
+}
+
+.css-1wa3eu0-placeholder {
+  color: black !important;
+}
+
+.MobileDrawer {
+  z-index: 0 !important;
+}
+.react-switch {
+  .react-switch-handle {
+    height: 25px !important;
+    width: 25px !important;
+    top: 2px !important;
+  }
+}
+.MuiButton-label {
+  line-height: initial !important;
+}
+.blink {
+  width: 55px;
+  // height: 30px;
+  background: linear-gradient(
+    105.86deg,
+    #3278ff -32.26%,
+    #a80000 144.13%
+  ) !important;
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-top: 3px;
+  // animation: blink 1.9s linear infinite;
+}
+
+.newText {
+  font-size: 15px;
+  color: white;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+.MuiBackdrop-root {
+  background-color: #401395 !important;
+  opacity: 0.5 !important;
+}
+
+.blinkNotification {
+  animation: blink 1.9s linear infinite;
+}
+@keyframes blinkNotification {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

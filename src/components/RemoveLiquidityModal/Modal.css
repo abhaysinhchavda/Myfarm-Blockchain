@@ -1,0 +1,27 @@
+.ConnectDilog .MuiDialog-paperWidthSm {
+  width: 400px !important;
+  border-radius: 20px;
+}
+
+.loder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.StakeModal .MuiDialog-paperWidthSm {
+  width: 438px !important;
+  /* height: 223px !important; */
+  border-radius: 20px;
+}
+.SwitchNetworkDilog .MuiDialog-paperWidthSm {
+  width: 431px;
+  height: 182px;
+  border-radius: 20px;
+}
+.myHeaderClass {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+  color: black;
+  padding: 0.8rem 1rem !important;
+  background: linear-gradient(91.69deg, #ecfdff -5.48%, #f2f0ff 111.08%);
+}

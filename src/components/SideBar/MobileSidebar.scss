@@ -1,0 +1,199 @@
+@import "/src/assets/stylesheet/_base.scss";
+// .pro-sidebar.collapsed {
+//   width: 80px !important;
+//   min-width: 80px !important;
+// }
+.pro-sidebar {
+//   width: 15% !important;
+//   min-width: 15% !important;
+  // border-right: 2px solid rgba(133, 133, 133, 0.1) !important;
+  > .pro-sidebar-inner {
+    background: #f8f8f8 !important;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    height: 100%;
+    position: relative;
+    z-index: 101;
+    // border-right: 2px solid rgba(133, 133, 133, 0.1) !important;
+    > .pro-sidebar-layout {
+      ul {
+        list-style: none;
+        margin-top: 0;
+      }
+    }
+  }
+  .pro-menu.shaped {
+    .pro-menu-item {
+      > .pro-inner-item {
+        > .pro-icon-wrapper {
+          background-color: transparent !important;
+          color: #4b44cd !important;
+          border-radius: 30px !important;
+        }
+      }
+    }
+  }
+
+  .pro-menu {
+    .pro-menu-item {
+      > .pro-inner-item {
+        > .pro-item-content {
+          flex-grow: 1;
+          flex-shrink: 1;
+          color: black;
+          font-size: 16px;
+          font-weight: 500;
+          list-style-type: none;
+          // &:hover{
+          // 	font-weight: 800;
+          // }
+        }
+        &:hover {
+          background: #f5f0ff !important;
+          color: black;
+          // border-top-left-radius: 15px;
+          // border-bottom-left-radius: 15px;
+          font-weight: bolder;
+          > span {
+            font-weight: 600;
+            color: #7550c3;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .pro-menu-item.active {
+      > .pro-inner-item {
+        > span {
+          font-weight: 600;
+          color: #7550c3;
+        }
+        > .pro-icon-wrapper {
+          > .pro-icon {
+
+            > svg {
+              > path {
+                fill: #7550c3;
+              }
+              }
+              
+            > svg {
+              > g{
+                > path {
+                  fill: #7550c3;
+                }
+              }
+             
+            }
+            > svg {
+              > g{
+                > g{
+                  > path {
+                    fill: #7550c3;
+                  }
+                }
+              }
+             
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.pro-menu-item.pro-sub-menu {
+  ul {
+    list-style-type: none;
+  }
+}
+.pro-sidebar {
+  .pro-menu {
+    > ul {
+      list-style-type: none;
+      > .pro-sub-menu {
+        list-style-type: none;
+        > .pro-inner-list-item {
+          list-style-type: none;
+          position: relative;
+          background-color: transparent !important;
+          border-radius: -12px;
+        }
+      }
+    }
+  }
+}
+
+.pro-sidebar.collapsed {
+  .pro-menu {
+    > ul {
+      > .pro-menu-item.pro-sub-menu {
+        > .pro-inner-list-item {
+          > .popper-inner {
+            max-height: 100vh;
+            overflow-y: auto;
+            background-color: #f8f8f8 !important;
+            padding-left: 20px;
+            border-radius: 4px;
+            width: 150px;
+          }
+        }
+      }
+    }
+  }
+}
+.pro-sidebar {
+  .pro-menu {
+    .pro-menu-item.pro-sub-menu {
+      > .pro-inner-item {
+        > .pro-arrow-wrapper {
+          position: absolute;
+          right: 70px !important;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+    }
+  }
+}
+.pro-sidebar {
+  .pro-menu {
+    .pro-menu-item {
+      > .pro-inner-item {
+        > .pro-icon-wrapper {
+          margin-right: 0 !important;
+        }
+      }
+    }
+  }
+}
+
+.pro-sidebar {
+  .pro-menu {
+    .pro-menu-item.pro-sub-menu {
+      > .pro-inner-item {
+        > .pro-arrow-wrapper {
+          .pro-arrow {
+            display: inline-block;
+            border-style: solid;
+            border-color: #7550c3;
+            color: #7550c3;
+            border-width: 0 2px 2px 0;
+            padding: 2.5px;
+            vertical-align: middle;
+            transition: transform 0.3s;
+            transform: rotate(-45deg);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .pro-sidebar {
+    > .pro-sidebar-inner {
+      margin-top: -5px;
+     
+    }
+  }
+}
