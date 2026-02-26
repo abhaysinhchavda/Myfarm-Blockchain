@@ -1,4 +1,4 @@
-# UniFarm — Multi-Chain DeFi Staking Platform (MyFarm Blockchain)
+# MyFarm — Multi-Chain DeFi Staking Platform Blockchain
 
 A decentralized finance (DeFi) staking dashboard that enables users to stake tokens, earn rewards, swap tokens, provide liquidity, and participate in governance across multiple blockchain networks.
 
